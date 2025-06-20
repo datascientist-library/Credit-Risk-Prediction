@@ -28,7 +28,7 @@ The goal is to classify whether a loan applicant will **default (1)** (high risk
 - **Pandas, NumPy** – Data manipulation
 - **Matplotlib, Seaborn** – Visualization
 - **Scikit-learn** – ML models and evaluation
-- **XGBoost ** – for gradient boosting
+- **XGBoost** – for gradient boosting
 - **GridSearchCV** – Hyperparameter tuning
 
 ---
