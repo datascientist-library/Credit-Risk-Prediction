@@ -70,8 +70,8 @@ The goal is to classify whether a loan applicant will **default (1)** (high risk
 
 ---
 
-```
 ## 📁 Project Structure
+```
 credit_risk_rediction/
 ├── Credit_Risk_Prediction.csv
 ├── Credit_Risk_Prediction.ipynb
