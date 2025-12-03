@@ -1,16 +1,16 @@
-# 💳 Credit Risk Prediction
+# Credit Risk Prediction
 
 Financial institutions need a risk assessment model to predict whether a borrower will default on a loan. The following dataset contains historic records having details of employee age, status, education level, income, loan amount, credit score and so on. This project aims to predict whether a person will default on a loan using historical credit-related data. It involves extensive exploratory data analysis, feature engineering, and the implementation of various machine learning models and its evaluation.
 
 ---
 
-## 📌 Problem Statement
+## Problem Statement
 
 The goal is to classify whether a loan applicant will **default (1)** (high risk) or **not default (0)** (low risk) based on input features such as income, employment status, education, and credit history.
 
 ---
 
-## 🧾 Dataset Overview
+## Dataset Overview
 
 - **Source**: Provided dataset (`Credit Risk Prediction.csv`)
 - **Records**: 100,000 rows
@@ -22,7 +22,7 @@ The goal is to classify whether a loan applicant will **default (1)** (high risk
 
 ---
 
-## 🛠️ Tools & Libraries
+## Tools & Libraries
 
 - **Programming Language**: Python
 - **Pandas, NumPy** – Data manipulation
@@ -33,7 +33,7 @@ The goal is to classify whether a loan applicant will **default (1)** (high risk
 
 ---
 
-## 🧪 Models Implemented
+## Models Implemented
 
 | Model                | Accuracy | Precision | Recall | F1-score |
 |---------------------|----------|----------|----------|----------|
@@ -44,7 +44,7 @@ The goal is to classify whether a loan applicant will **default (1)** (high risk
 
 ---
 
-## 🔍 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 - Class balance check and visualization
 - Correlation heatmaps
@@ -53,7 +53,7 @@ The goal is to classify whether a loan applicant will **default (1)** (high risk
 
 ---
 
-## 💡 Key Insights
+## Key Insights
 - The correlation heatmap reveals that the numerical features in the dataset have very weak or near-zero correlations with each other, indicating minimal linear relationships.
 - Education level and home ownership shows very limited variation in predicting default.
 - Marital status has negligible predictive power regarding defaults.
@@ -61,7 +61,7 @@ The goal is to classify whether a loan applicant will **default (1)** (high risk
 
 ---
 
-## 📈 Performance Evaluation
+## Performance Evaluation
 
 - Accuracy, Precision, Recall, F1-score
 - Confusion Matrix
@@ -70,7 +70,7 @@ The goal is to classify whether a loan applicant will **default (1)** (high risk
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 ```
 credit_risk_rediction/
 ├── Credit_Risk_Prediction.csv
@@ -81,7 +81,7 @@ credit_risk_rediction/
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 
 - **Random Forest** performed better than other models with accuracy of **74%**.
 - Optimized the model with Hyperparameter tuning and Cross-Validation and it slightly improved the performance of the model.
@@ -89,14 +89,14 @@ credit_risk_rediction/
 
 ---
 
-## 🔭 Future Work
+## Future Work
 
 - Integrate real-time or recent data
 - Build an interactive dashboard for live predictions
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Mihir Patil**  
 Data Science Capstone Project | MIT World Peace University
